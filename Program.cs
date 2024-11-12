@@ -10,7 +10,7 @@
             Console.WriteLine("Enter the temperature: ");
             temp = Convert.ToInt32(Console.ReadLine());
 
-            if (temp >= 0 && temp < 11) 
+            if (temp >= 0 && temp <= 10) 
             {
                 Console.WriteLine("Freezing weather");
             }
